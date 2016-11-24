@@ -1,0 +1,17 @@
+<xml>
+
+
+	<files id="src">
+
+		<compilerflag value="-I${this_dir}/include"/>
+        <compilerflag value="-I${ANDROID_NDK_ROOT}/sources/cpufeatures" if="android"/>
+
+        <file name="${ANDROID_NDK_ROOT}/sources/android/cpufeatures/cpu-features.c" if="android"/>
+
+		<file name="${this_dir}/src/webp/dec/alpha.c" />
+
+
+
+	</files>
+
+</xml>

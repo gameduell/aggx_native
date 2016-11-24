@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<library xmlns="duell">
+
+	<duelllib name="types" version="master" />
+
+
+    <include path="backends/aggx_native_ios/duell_library.xml" if="ios" />
+
+    <platform-config>
+
+    </platform-config>
+
+</library>
